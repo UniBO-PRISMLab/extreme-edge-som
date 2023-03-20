@@ -424,9 +424,7 @@ vector<float> split(const String& s, char delimiter) {
 void setup() {
     M5.begin();        // Init M5Core.  初始化 M5Core
     M5.Power.begin();  // Init Power module.  初始化电源
-    /* wifiMulti.addAP(
-        "Vodafone-34710593",
-        "M@tt30tt1_33"); */
+    
     wifiMulti.addAP(
         "wifi_name",
         "wifi_pass");
