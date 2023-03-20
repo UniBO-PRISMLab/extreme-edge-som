@@ -35,7 +35,7 @@ vector<float> accYv;
 vector<float> accZv;
 vector<float> timev;
 
-WiFiMulti wifiMulti;
+//WiFiMulti wifiMulti;
 
 string menu_items[1] = {"testing SOM local"};
 

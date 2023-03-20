@@ -428,8 +428,8 @@ void setup() {
         "Vodafone-34710593",
         "M@tt30tt1_33"); */
     wifiMulti.addAP(
-        "chanzo wifi",
-        "iosonodio");
+        "wifi_name",
+        "wifi_pass");
 
     M5.IMU.Init();  // Init IMU sensor.  初始化惯性传感器
 
